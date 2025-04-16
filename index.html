@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surat Undangan Ulang Tahun</title>
+
+  <!-- Link ke file CSS -->
+  <link rel="stylesheet" href="syle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <h1>🌸 SELAMAT ANDA TELAH DI UNDANG DALAM UPACARA ULANG TAHUN 🌸</h1>
+
+  <div class="photo-frame">
+    <img id="slideshow" src="javier1.JPG" alt="Foto slideshow">
+  </div>
+
+  <div class="surat">
+    <p>HAIII TEMAN TEMANNKUUUU... 🌞✨</p>
+    <p>Aku cuma mau bilang… kalian di undang lhooo ke acara ulang tahun kuu</p>
+    <p>wkwkwkw tiba tiba bangett yaaa? Gapapaaa lahh sekali' yaa kan? wlee</p>
+    <p>Jangan lupa datenggg. Gimana nihh cara dateng nyaa?? Tinggal isi ajaa RSVP Ddibawah inii</p>
+    <p>Masaa anak jaman sekarang gatau isi RSVP wkwkwkwkwk</p>
+    <p class="emoji">🙋‍♂️ 💌 😂</p>
+    <footer>JOIN NGGAA!!! GW KEPALA 2 INIII!!!</footer>
+  </div>
+
+  <!-- Form untuk RSVP -->
+  <div class="rsvp-form">
+    <h2>Isi RSVP Anda</h2>
+    <form id="rsvpForm">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="relationship">Siapa Anda untuk Javier:</label>
+      <input type="text" id="relationship" required><br><br>
+
+      <label for="message">Pesan Singkat:</label>
+      <textarea id="message" required></textarea><br><br>
+
+      <button type="submit">Kirim RSVP</button>
+    </form>
+  </div>
+
+  <!-- Tempat untuk menampilkan daftar RSVP -->
+  <div class="rsvp-list">
+    <h2>Daftar RSVP:</h2>
+    <ul id="rsvpDisplay">
+      <!-- RSVP akan ditampilkan di sini -->
+    </ul>
+  </div>
+
+  <!-- Link ke file JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
